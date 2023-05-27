@@ -6,7 +6,7 @@ const params = {
   threshold: 0.5,
   interval: 4,
   overlap: 2,
-  reverse: false,
+  reverse: true,
 
   positionX: 0,
   positionY: 0,
