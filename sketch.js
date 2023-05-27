@@ -62,6 +62,10 @@ function draw() {
   translate(width / 2, height / 2)
 
   if (!img) {
+    textSize(50)
+    textAlign(CENTER, CENTER)
+    fill(255)
+    text('Drop image file', 0, 0)
     return
   }
 
