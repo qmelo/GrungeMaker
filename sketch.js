@@ -62,6 +62,7 @@ function draw() {
   translate(width / 2, height / 2)
 
   if (!img) {
+    textFont('Helvetica')
     textSize(50)
     textAlign(CENTER, CENTER)
     fill(255)
